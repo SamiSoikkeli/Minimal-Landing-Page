@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Prata&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vh;
+    height: 100vh;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-container {
+    background: #FFF;
+    text-align: center;
+    line-height: -10%;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+
+    .logo {
+        color: #000;
+        font-weight: 900;
+        font-family: 'Prata';
+        text-decoration: underline;
+        padding-left: 2em;
+
+        a {
+            color: #000;
+        }
+    }
+
+    ul {
+        display: flex;
+        font-family: 'Prata';
+        transform: translate(-115px, 15px);
+    
+        a {
+            display: block;
+            padding: 0 1em;
+            color: #000;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .nav-contact {
+        position: relative;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 1.5em;
+        color: #FFF;
+        float: right;
+        right: 150px;
+        top: 5px;
+
+        a {
+            color: #FFF;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .arrow {
+            width: 30px;
+            transform: translateY(7px);
+        }
+
+        .pink {
+            top: 0;
+            right: 0;
+            width: 500px;
+        }
+    }
+}
+
+.hero {
+    position: relative;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 4em;
+    display: grid;
+    top: 50%;
+    left: 80%;
+    margin: 0;
+    padding: 0;
+
+    .footer {
+        width: 20px;
+        position: relative;
+        left: 110%;
+        top: 30%;
+
+        .scroll {
+            width: 25px;
+            cursor: pointer;
+        }
+    }
+}
+
